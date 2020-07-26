@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btn_a.setOnClickListener(this)
         btn_0.setOnClickListener(this)
         btn_b.setOnClickListener(this)
-        button.setOnClickListener(this)
+        //button.setOnClickListener(this)
     }
 
     override fun onClick(p0: View?) {

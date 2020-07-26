@@ -13,7 +13,9 @@ class YaoOperands {
     }
 
     fun del() {
-        mOperands.removeLast()
+        if (!mOperands.isEmpty()) {
+            mOperands.removeLast()
+        }
     }
 
     fun compute() {
